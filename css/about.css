@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+
+#aboutSection{
+border: 3px solid;
+display: inline-block;
+vertical-align: top;
+
+}
+
+#about{
+    display:flex;
+    float: left;
+    margin: 40px 400px 40px 40px;
+    border-right: 3px solid black;
+    padding: 1rem;
+}
+
+#mission{
+    display:flex;
+    float: left;
+    margin: 40px 40px 40px 400px;
+    border-left: 3px solid black;
+    padding: 1rem;
+}
+
+.card{
+    display: flex;
+}
