@@ -17,16 +17,31 @@
 
 <body>
     <header>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About Us</a>
-            <a href="./faq.html">FAQ</a>
-            <a href="./login.html">Login</a>
-            <a href="./register.html">Register</a>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="images/energylogo.png" alt="Logo">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <!-- <li><a href="#">Community</a></li> -->
+                    <li><a href="login.html">Login/Register</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
+
+    <div class="headers">
+
+        <h3 class="aboutUs">About Us</h3>
+
+        <h3 class="missionText">Our Mission</h3>
+
+    </div>
+    </div>
     <div id="aboutSection">
-        <h3>About Us</h3>
         <div id="about">
             <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Vivamus magnis fringilla praesent nullam libero
                 egestas ante? Et conubia vulputate dapibus duis dis vivamus. Non tellus gravida lobortis platea posuere
@@ -34,8 +49,8 @@
                 senectus lobortis suspendisse vestibulum proin. Dictum habitasse maximus conubia integer; velit torquent
                 ad.</p>
         </div>
-        <img src="" alt="">
-        <h3>Our mission</h3>
+        <img src="./images/teamPhoto1.jpg" alt="teamPhoto1" class="teamPhoto1">
+
         <div id="mission">
             <p>Molestie molestie aptent netus congue lobortis fusce sagittis himenaeos convallis. In inceptos a ante
                 vehicula tincidunt interdum curae. Eros molestie eu hac; senectus consectetur platea. Velit orci mattis
@@ -43,43 +58,77 @@
                 adipiscing. Dis ultricies tempor magna litora odio placerat. Tempus torquent taciti elit condimentum
                 faucibus interdum, imperdiet molestie. Faucibus aliquet senectus molestie venenatis libero; conubia
                 cras.</p>
+
         </div>
     </div>
-    <h2>Meet the Team!</h2>
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+    <h2 class="mtt">Meet the Team!</h2>
+    <div class="allCards">
+        <div class="card" style="width: 20rem;">
+            <img src="./images/stockPhoto2.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Dara Doe</h5>
+                <p class="card-text">Molestie molestie aptent netus congue lobortis fusce sagittis himenaeos convallis.
+                    In inceptos a ante
+                    vehicula tincidunt interdum curae. Eros molestie eu hac; senectus consectetur platea. Velit orci
+                    mattis
+                    nisl tempor suscipit enim leo consequat. Vel ligula tincidunt facilisis fames non aptent; odio
+                    adipiscing.</p>
+            </div>
         </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+        <div class="card" style="width: 20rem;">
+            <img src="./images/stockPhoto1.jfif"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Jane Doe</h5>
+                <p class="card-text">Molestie molestie aptent netus congue lobortis fusce sagittis himenaeos convallis.
+                    In inceptos a ante
+                    vehicula tincidunt interdum curae. Eros molestie eu hac; senectus consectetur platea. Velit orci
+                    mattis
+                    nisl tempor suscipit enim leo consequat. Vel ligula tincidunt facilisis fames non aptent; odio
+                    adipiscing.</p>
+            </div>
         </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+        <div class="card" style="width: 20rem;">
+            <img src="./images/stockPhoto3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">John Doe</h5>
+                <p class="card-text">Molestie molestie aptent netus congue lobortis fusce sagittis himenaeos convallis.
+                    In inceptos a ante
+                    vehicula tincidunt interdum curae. Eros molestie eu hac; senectus consectetur platea. Velit orci
+                    mattis
+                    nisl tempor suscipit enim leo consequat. Vel ligula tincidunt facilisis fames non aptent; odio
+                    adipiscing.</p>
+            </div>
         </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+        <div class="card" style="width: 20rem;">
+            <img src="./images/stockPhoto4.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Dan Doe</h5>
+                <p class="card-text">Molestie molestie aptent netus congue lobortis fusce sagittis himenaeos convallis.
+                    In inceptos a ante
+                    vehicula tincidunt interdum curae. Eros molestie eu hac; senectus consectetur platea. Velit orci
+                    mattis
+                    nisl tempor suscipit enim leo consequat. Vel ligula tincidunt facilisis fames non aptent; odio
+                    adipiscing.</p>
+            </div>
         </div>
     </div>
 
-    <footer></footer>
+    <footer>
+<h2>Maxx Energy Demo</h2>
+
+<div class="socials">
+<p></p><a href="https://www.tiktok.com" target="_blank"><img src="./images/icons8-tiktok-64.png" alt=""></a>
+<a href="https://www.facebook.com" target="_blank"><img src="./images/icons8-facebook-64.png" alt=""></a>
+<a href="https://www.instagram.com" target="_blank"><img src="./images/icons8-instagram-64.png" alt=""></a>
+<a href="https://www.x.com" target="_blank"><img src="./images/icons8-twitterx-64.png" alt=""></a>
+</div>
+
+
+
+
+
+    </footer>
 
 </body>
 
