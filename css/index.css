@@ -1,0 +1,90 @@
+footer{
+    background-color:  #1B262C;
+    margin-top: 100%;
+    padding: 2%;
+}
+body{
+    background-color: blue;
+}
+
+/* css for the hero section */
+.heroPage{
+    /* padding: 13%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    /* background-image: linear-gradient(90deg, 
+    rgba(255, 0, 0, .35), 
+    rgba(0,0,255, .35)
+    ); */
+    /* padding: 19% 35% 19% 35%; */
+    /* padding: 100px 0; */
+    min-height: 100vh;
+    /* margin-left: 25%;
+    margin-right: 25%; */
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+}
+.heroTitle{
+    font-size: 100px;
+    color: #fff;
+    font-weight: 600;
+}
+.heroContainer{
+    border: 10px solid white;
+    border-top-left-radius: 96%;
+    padding: 5px;
+}
+.outsideContainer{
+    border:10px solid white;
+}
+.flex-container{
+    text-align: center;
+    border-bottom: 4px solid black;
+    margin: 5% 20% 0 20%;
+    padding-bottom: 2%;
+
+    /* margin-top: 5%; */
+}
+.powerPlant{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content1{
+    border: 5px solid black;
+    padding: 10%;
+}
+.callToAction{
+    display: flex;
+    justify-content:flex-end;
+    border:5px solid #bbe1FA;
+    margin: 0;
+    padding: 200px;
+    border-top-left-radius: 200%;
+    background-color: #bbe1FA;
+}
+.outercontainer{
+    border: 10px solid none;
+    margin: 10% 10%;
+    padding: 10%;
+    /* background-color:aqua; */
+    background: rgba(50, 130, 184, 0.1);
+
+}
+.paragraph1{
+    display: flex;
+    justify-content: end;
+    transform: translate(-100%, -150%);
+}
+.paragraph2{
+    transform: translate(-50%, -50%);
+}
