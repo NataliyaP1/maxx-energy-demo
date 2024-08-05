@@ -1,10 +1,15 @@
 footer{
     background-color:  #1B262C;
-    margin-top: 100%;
+    margin-top: 10%;
     padding: 2%;
 }
 body{
-    background-color: blue;
+
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: blue;
+
 }
 
 /* css for the hero section */
@@ -75,16 +80,20 @@ body{
 .outercontainer{
     border: 10px solid none;
     margin: 10% 10%;
-    padding: 10%;
+    padding: 5%;
     /* background-color:aqua; */
     background: rgba(50, 130, 184, 0.1);
 
 }
+.contentImg{
+    max-width: 100%;
+    max-height: 100%;
+}
 .paragraph1{
     display: flex;
     justify-content: end;
-    transform: translate(-100%, -150%);
+    /* transform: translate(-100%, -150%); */
 }
 .paragraph2{
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
 }
