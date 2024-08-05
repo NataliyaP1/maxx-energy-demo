@@ -43,12 +43,12 @@
 }
 
 #about {
-    border-right: 3px solid black;
+    border-right: 1px solid #0F4C75;
     padding: 1rem;
 }
 
 #mission {
-    border-left: 3px solid black;
+    border-left: 1px solid #0F4C75;
     padding: 1rem;
 }
 
