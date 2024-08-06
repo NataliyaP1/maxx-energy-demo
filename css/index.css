@@ -3,12 +3,9 @@ footer{
     margin-top: 10%;
     padding: 2%;
 }
-body{
-
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-        background-color: blue;
+body {
+    /* font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5; /* Light grey background for a clean look */
 
 }
 
@@ -65,8 +62,8 @@ body{
 }
 
 .content1{
-    border: 5px solid black;
-    padding: 10%;
+    border: 5px solid none;
+    padding: 0;
 }
 .callToAction{
     display: flex;
@@ -80,7 +77,7 @@ body{
 .outercontainer{
     border: 10px solid none;
     margin: 10% 10%;
-    padding: 5%;
+    padding: 0;
     /* background-color:aqua; */
     background: rgba(50, 130, 184, 0.1);
 
@@ -90,10 +87,93 @@ body{
     max-height: 100%;
 }
 .paragraph1{
-    display: flex;
-    justify-content: end;
-    /* transform: translate(-100%, -150%); */
+    /* margin-left: 50%; */
 }
-.paragraph2{
-    /* transform: translate(-50%, -50%); */
+
+.subtitle {
+    font-size: 2.5em; /* Makes the text large */
+    font-weight: bold; /* Makes the text bold */
+    color: #2C3E50; /* A modern dark color */
+    text-transform: uppercase; /* Makes the text all uppercase */
+    letter-spacing: 2px; /* Adds space between the letters for a stylish effect */
+    text-align: center; /* Centers the text */
+    margin: 20px 0; /* Adds some space above and below the subtitle */
+    background: linear-gradient(90deg, #3282B8, #BBE1FA); /* Adds a gradient background */
+    -webkit-background-clip: text; /* Clips the background to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text transparent to show the gradient */
 }
+
+.subtitle-subtext {
+    font-family: 'Roboto', sans-serif; /* Applies the modern font */
+    font-size: 1.2em; /* Sets a smaller font size for the subtext */
+    font-weight: 300; /* Makes the text lighter */
+    color: #34495E; /* A slightly lighter dark color */
+    text-align: center; /* Centers the text */
+    margin: 10px 0 30px; /* Adds space above and below the subtext */
+    line-height: 1.5; /* Increases the line height for readability */
+    max-width: 800px; /* Limits the width for better readability */
+    margin-left: auto; /* Centers the subtext horizontally */
+    margin-right: auto; /* Centers the subtext horizontally */
+    padding: 0 20px; /* Adds some padding for better spacing */
+    /* border: 5px solid #3282B8;
+    border-left: none;
+    border-top: none; */
+}
+
+.header-container {
+    padding: 20px;
+    background-color: #0F4C75;
+}
+
+.main-title {
+    font-size: 3em; /* Makes the title large */
+    font-weight: 700; /* Makes the text bold */
+    color: #2C3E50; /* A modern dark color */
+    text-transform: uppercase; /* Makes the text all uppercase */
+    letter-spacing: 3px; /* Adds space between the letters for a stylish effect */
+    margin: 0 0 20px; /* Adds space below the title */
+    background: linear-gradient(90deg, #1ABC9C, #16A085); /* Adds a gradient background */
+    -webkit-background-clip: text; /* Clips the background to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text transparent to show the gradient */
+}
+
+.main-subtitle {
+    font-size: 1.5em; /* Sets a smaller font size for the subtitle */
+    font-weight: 300; /* Makes the text lighter */
+    color: #BBE1FA; /* A slightly lighter dark color */
+    line-height: 1.5; /* Increases the line height for readability */
+    max-width: 800px; /* Limits the width for better readability */
+    margin: 0 auto; /* Centers the subtitle horizontally */
+    padding: 0 20px; /* Adds some padding for better spacing */
+}
+.transition-title {
+    font-family: 'Montserrat', sans-serif; /* Applies the modern Montserrat font */
+    font-size: 3em; /* Makes the title large */
+    font-weight: 600; /* Makes the text semi-bold */
+    color: #2C3E50; /* A modern dark color */
+    text-transform: uppercase; /* Makes the text all uppercase */
+    letter-spacing: 2px; /* Adds space between the letters for a stylish effect */
+    margin: 0 0 20px; /* Adds space below the title */
+    background: linear-gradient(90deg, #1ABC9C, #16A085); /* Adds a gradient background */
+    -webkit-background-clip: text; /* Clips the background to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text transparent to show the gradient */
+}
+
+.transition-subtitle {
+    font-family: 'Roboto', sans-serif; /* Applies the modern Roboto font */
+    font-size: 1.5em; /* Sets a smaller font size for the subtitle */
+    font-weight: 300; /* Makes the text lighter */
+    color: #34495E; /* A slightly lighter dark color */
+    line-height: 1.5; /* Increases the line height for readability */
+    max-width: 800px; /* Limits the width for better readability */
+    margin: 0 auto; /* Centers the subtitle horizontally */
+    padding: 0 20px; /* Adds some padding for better spacing */
+}
+
+.nunito-callToAction {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-size: 50px;
+    font-style: normal;
+  }
