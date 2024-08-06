@@ -1,9 +1,11 @@
 
 /* General reset and styling */
-body {
+/* body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
-}
+    background-color: blue;
+} */
 
 header {
     background-color: #1B262C; /* Dark background*/
