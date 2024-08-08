@@ -6,7 +6,7 @@ body {
 }
 
 .faq-header {
-    background-color: #004080;
+    background-color: #0F4C75;
     color: white;
     padding: 20px;
     text-align: center;
@@ -35,7 +35,7 @@ main {
 }
 
 .faq-button {
-    background-color: #004080;
+    background-color: #0F4C75;
     color: white;
     border: none;
     padding: 15px;
@@ -47,23 +47,25 @@ main {
 }
 
 .faq-button:hover {
-    background-color: #003366;
+    background-color: #1B262C;
 }
 
 .faq-content {
     display: none;
     padding: 15px;
     background-color: white;
+    margin-bottom: 15rem;
 }
 
 footer {
-    background-color: #004080;
+    /* background-color: #004080; */
     color: white;
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+     
 }
 
 .search-container {
