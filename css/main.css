@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: rgb(27, 38, 44); /* Dark background*/
+    background-color: #1b262c; /* Dark background*/
     color: #fff;
 }
 
@@ -54,6 +54,7 @@ header {
 .nav-links a:hover {
     color: #BBE1FA; /* Highlight color */
 }
+
 /* footer begins */
 
 footer {
