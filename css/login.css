@@ -1,10 +1,19 @@
-* {
+
+
+/* * {
     box-sizing: border-box;
-}
+} */
 
 .body {
-    display: grid;
+    /* display: grid;
+    justify-content: center; */
+    background: #f6f5f7;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
 }
 
 
@@ -98,18 +107,15 @@ input {
 
 .container2 {
     background-color: #ffffff00;
-    ;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.055),
-        0 10px 10px rgba(0, 0, 0, 0.103);
-    position: relative;
     overflow: hidden;
-    width: 1068px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.404),
+        0 10px 10px rgba(0, 0, 0, 0.404);
+    position:relative;
+    overflow:hidden;
+    width: 128vh;
     max-width: 100%;
-    height: 600px;
-    min-height: 330px;
-    display: flex;
-    justify-content: center;
-    margin: 55px 50px 50px 50px;
+    min-height: 180px;
+    padding:300px;
     font-family: "Nunito", sans-serif;
 }
 
@@ -251,4 +257,10 @@ input {
 
 .social-container img {
     max-width: 30px;
+}
+
+#errorMessage{
+    color: red;
+    font-weight: 600;
+    text-decoration: underline;
 }

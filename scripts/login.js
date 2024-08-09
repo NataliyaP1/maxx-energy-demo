@@ -11,4 +11,12 @@ document.addEventListener("DOMContentLoaded", ()=>{
       container2.classList.remove("right-panel-active");
     });
     
+  //for auth button//
+    document.getElementById("authSignIn").addEventListener("click", function(e){
+
+      document.getElementById("errorMessage").style.display = "block";
+  });
+
+
     });
+

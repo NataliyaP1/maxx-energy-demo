@@ -42,7 +42,7 @@
     <div class="body">
         <div class="container2" id="container2">
             <div class="form-container sign-up-container">
-                <form action="#">
+                <form id="signUpForm" action="#">
                     <h1>Create An Account</h1>
                     <div class="social-container">
                         <!-- <a href="#" class="social"><img src=""><i class="fab fa-facebook-f"></i></a> -->
@@ -61,7 +61,7 @@
                 </form>
             </div>
             <div class="form-container sign-in-container">
-                <form action="#">
+                <form id="signInForm" action="#">
                     <h1>Sign in</h1>
                     <div class="social-container">
                         <!-- <a href="#" class="social"><img src=""><i class="fab fa-facebook-f"></i></a> -->
@@ -71,6 +71,7 @@
                                 src="./images/icons8-linkedin-48.png"></a>
                     </div>
                     <span>or use your account</span>
+                    <p id="errorMessage" style="display:none;">Invalid Email or Password, Please Try Again</p>
                     <input type="email" placeholder="Email" required/>
                     <input type="password" placeholder="Password" required/>
                     <a href="#">Forgot your password?</a>
@@ -116,5 +117,6 @@
     </footer>
 
 </body>
+
 
 </html>
