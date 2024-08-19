@@ -1,12 +1,7 @@
 
-
-/* * {
-    box-sizing: border-box;
-} */
-
-.body {
-    /* display: grid;
-    justify-content: center; */
+ .body {
+    display: grid;
+    justify-content: center;
     background: #f6f5f7;
     display: flex;
     justify-content: center;
@@ -14,6 +9,7 @@
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
+    font-weight: 500;
 }
 
 
@@ -27,7 +23,7 @@
 h1 {
     font-weight: bold;
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family:'Montserrat', sans-serif;
 }
 
 h2 {
@@ -90,6 +86,8 @@ form {
     text-align: center;
 }
 
+
+
 input {
     background-color: #eee;
     border: none;
@@ -107,17 +105,18 @@ input {
 
 .container2 {
     background-color: #ffffff00;
-    overflow: hidden;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.404),
         0 10px 10px rgba(0, 0, 0, 0.404);
     position:relative;
     overflow:hidden;
     width: 128vh;
-    max-width: 100%;
-    min-height: 180px;
+    max-width: 128vh;
+    height: auto;
     padding:300px;
-    font-family: "Nunito", sans-serif;
+    font-family:'Montserrat', sans-serif;
+    margin: 500px;
 }
+
 
 .form-container {
     position: absolute;
@@ -179,10 +178,10 @@ input {
     overflow: hidden;
     transition: transform 0.6s ease-in-out;
     z-index: 100;
-}
+} 
 
 /* animation */
-.container2.right-panel-active .overlay-container {
+ .container2.right-panel-active .overlay-container {
     transform: translateX(-100%);
 }
 
@@ -236,11 +235,11 @@ input {
 
 .container2.right-panel-active .overlay-right {
     transform: translateX(20%);
-}
+}  
 
 /* end of animation */
 /* social signins/signups */
-.social-container {
+  .social-container {
     margin: 20px;
 }
 
@@ -263,4 +262,107 @@ input {
     color: red;
     font-weight: 600;
     text-decoration: underline;
+} 
+/* end of social signins/signups */ 
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container2 {
+        width: 100%;
+        padding: 300px;
+        margin: 0;
+    }
+
+    .form-container {
+        padding: 0 0px;
+    }
+
+    button {
+        padding: 10px 30px;
+        font-size: 10px;
+    }
+
+    .social-container a {
+        height: 30px;
+        width: 30px;
+    }
+
+    .overlay-panel {
+        padding: 0 20px;
+    }
 }
+
+@media (max-width:480px) {
+
+   
+    .container2 {
+        padding: 500px 200px 300px 200px;
+        margin: 300px;
+    }
+
+    input{
+        font-size: 4px;
+    }
+
+    button {
+        padding: 8px 20px;
+
+    }
+
+    .overlay-panel {
+        padding: 0 10px;
+    }
+    .body{
+        margin: 70px;
+    }
+}
+
+@media (max-width: 375px) {
+
+   
+    .container2 {
+        padding: 290px 200px 450px 200px;
+        
+    }
+
+    input{
+        font-size: 2px;
+        size: 2px;
+    }
+
+    button {
+        padding: 8px 20px;
+
+    }
+
+    .overlay-panel {
+        padding: 0 5px;
+    }
+    .socials a{
+        margin:-30px;
+
+    }
+
+    footer {
+        padding: 4px;
+    }
+
+    .socials a {
+        margin: 10px;
+        max-width: 39px;
+    }
+
+    .bottom-links a {
+        margin: 5px;
+    }
+
+    .copy {
+        margin: 10px 0;
+    }
+
+    .body{
+        margin: 150px;
+    }
+}
+
