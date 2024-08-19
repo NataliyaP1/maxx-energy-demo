@@ -182,3 +182,103 @@ body {
     color: white;
     text-indent: -10px;
 }
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+    .heroPage {
+        padding: 0 5%;
+    }
+
+    .heroTitle {
+        font-size: 10vw; /* Larger on smaller screens */
+    }
+
+    .flex-container {
+        margin: 5% 5%;
+    }
+
+    .callToAction {
+        padding: 5%;
+    }
+
+    .outercontainer {
+        margin: 5% 2%;
+    }
+
+    .subtitle {
+        font-size: 2em;
+    }
+
+    .subtitle-subtext,
+    .main-subtitle,
+    .transition-subtitle {
+        font-size: 1em;
+    }
+
+    img[alt="cloudy street view"]{
+        max-width: 70vh;
+            }
+            .contentImg{
+                max-width: 80vh;
+            }
+}
+
+@media (max-width: 576px) {
+    .heroPage {
+        padding: 0 2%;
+    }
+
+    .heroTitle {
+        font-size: 12vw; /* Responsive font size */
+    }
+
+    .callToAction {
+        padding: 5%;
+        flex-direction: column;
+    }
+
+    .main-title, .nunito-callToAction, .transition-title {
+        font-size: 7vw;
+    }
+
+    .outercontainer {
+        margin: 5% 1%;
+    }
+
+    .subtitle {
+        font-size: 5vw;
+    }
+
+    .subtitle-subtext,
+    .main-subtitle,
+    .transition-subtitle {
+        font-size: 0.9em;
+    }
+
+    img[alt="cloudy street view"]{
+max-width: 30vh;
+    }
+    .contentImg{
+        max-width: 40vh;
+        margin-left: 10px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .socials a {
+        margin: 5px;
+        max-width: 30px;
+    }
+
+    .bottom-links a {
+        margin: 5px;
+    }
+
+    .copy {
+        margin: 10px 0;
+    }
+}
+

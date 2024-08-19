@@ -58,13 +58,14 @@ main {
 }
 
 footer {
-    /* background-color: #004080; */
+    /* background-color: #004080;
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100%; */
+
+
      
 }
 
@@ -81,4 +82,49 @@ footer {
 }
 .faq-item {
     margin: 10px 0;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .faq-header {
+        padding: 15px;
+    }
+
+    .faq-button {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .search-container input[type="text"] {
+        width: 90%;
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .faq-header {
+        padding: 10px;
+    }
+
+    .faq-button {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .search-container {
+        margin: 10px;
+    }
+
+    .search-container input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    footer {
+        padding: 8px;
+        font-size: 14px;
+    }
 }

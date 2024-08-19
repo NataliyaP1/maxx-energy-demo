@@ -65,7 +65,7 @@ footer {
 }
 
 .socials a {
-    margin: 40px;
+    margin: 30px;
 
 }
 
@@ -100,3 +100,31 @@ footer {
 }
 
 /* footer ends */
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 550px) {
+
+    footer {
+        padding: 20px;
+    }
+
+    .socials a {
+        margin: 10px;
+        max-width: 308px;
+    }
+
+    .bottom-links a {
+        margin: 5px;
+    }
+
+    .copy {
+        margin: 10px 0;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+    
+}
