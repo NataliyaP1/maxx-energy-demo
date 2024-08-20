@@ -28,3 +28,4 @@ document.getElementById('faq-search').addEventListener('input', function() {
         }
     });
 });
+
