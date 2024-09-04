@@ -63,6 +63,15 @@
    
 }
 
+iframe{
+    width: 1411px;
+    height: 655px;
+}
+
+.video{
+    display:flex;
+    justify-content: center;
+}
 
 /* end of first section */
 
@@ -194,9 +203,11 @@ footer {
 /* footer ends */
 
 /* Media Queries for Responsiveness */
-@media (max-width: 1200px) {
+
+
+@media (max-width: 1280px) {
     .title {
-        font-size: 3em;
+        font-size: 4em;
     }
 
     .mtt {
@@ -218,7 +229,6 @@ footer {
         max-width: 150vh;
     }
 }
-
 @media (max-width: 992px) {
     #about-section {
         flex-direction: column;
@@ -238,11 +248,19 @@ footer {
         width: 100%;
         margin: 15px 0;
     }
+
+    iframe{
+        width: 711px;
+        height: 355px;
+    }
+
+
+
 }
 
 @media (max-width: 768px) {
     .title, .mtt {
-        font-size: 2em;
+        font-size: 3em;
     }
 
     .contact-info h2 {
@@ -261,11 +279,20 @@ footer {
     .teamPhoto1{
         max-width: 70vh;
     }
+    nav .nav-links{
+        display: none;
+    }
+    .hamMenu{
+        display:block !important;
+    }
+  
 }
 
 @media (max-width: 550px) {
     .title, .mtt {
         font-size: 2em;
+        display: flex;
+        justify-content: center;
     }
 
     .contact-info h2{
@@ -299,6 +326,22 @@ footer {
     }
 
     .teamPhoto1{
-        max-width: 40vh;
+        max-width: 50vh;
     }
+
+    iframe{
+        width: 711px;
+        height: 255px;
+    }
+
+    nav .nav-links{
+        display: none;
+    }
+
+    .hamMenu{
+        display:block !important;
+    }
+
 }
+
+

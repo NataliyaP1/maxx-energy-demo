@@ -216,15 +216,27 @@ body {
         font-size: 1em;
     }
 
+    img{
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+    }
+
     img[alt="cloudy street view"]{
-        max-width: 70vh;
+        width: 150%;
+        margin-right: -190px;
+        display: flex;
+        flex-direction: column;
             }
             .contentImg{
-                max-width: 80vh;
+                max-width: 40vh;
             }
 }
 
 @media (max-width: 576px) {
+    body{
+        justify-content: center;
+    }
     .heroPage {
         padding: 0 2%;
     }
@@ -280,5 +292,6 @@ max-width: 30vh;
     .copy {
         margin: 10px 0;
     }
+
 }
 
