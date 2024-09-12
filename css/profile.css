@@ -5,12 +5,6 @@ footer {
 }
 
 body {
-    /* display: flex;
-   justify-content: center; */
-    /* padding: 0;
-   margin: 0;
-   text-align: center; */
-    /* align-items: center; */
     margin: 0;
     padding: 0;
 
@@ -62,23 +56,14 @@ main{
     /* align-items: flex-start; */
 }
 
-.maxxEnergy-profile-font {
-    font-family: 'Roboto', 'Arial', sans-serif;
-    font-size: 16px;
-    /* Adjust size as needed */
-    font-weight: 400;
-    /* Normal weight */
-    color: #333333;
-    /* Standard text color */
-    line-height: 1.5;
-    /* Line spacing */
-}
 
 .stuff {
     /* display: flex;
     align-items: start;
     justify-content: start; */
     /*  */
+    /* border: 1px solid black; */
+    margin-right: 5%;
 }
 
 .tom {
@@ -114,6 +99,8 @@ main{
 
 .miniBox2 {
     font-size: 25px;
+    font-style: 'Montserrat', 'Raleway';
+    font-weight: 500;
 }
 
 .about {
@@ -146,19 +133,68 @@ main{
     font-style: normal;
 }
 
-.roboto-slab-subInfo {
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: 25px;
-    font-style: normal;
+.headingFont{
+    font-family: "Merriweather";
+    font-size: 30px;
+    font-weight: 550;
+}
+.subHeadingFont{
+    font-family: 'Roboto', 'Open Sans', 'Lato';
+    font-size: 20px;
 }
 
-.ubuntu-bold {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
-    font-size: 30px;
-    font-style: normal;
+.interstList{
+    font-weight: 400;
+}
+
+.basicInfo{
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+
+    nav .nav-links{
+        display: none;
+    }
+    .hamMenu{
+        display:block !important;
+    }
+  
+}
+
+@media (max-width: 550px) {
+
+    footer {
+        padding: 20px;
+    }
+
+    .socials a {
+        margin: 10px;
+        max-width: 308px;
+    }
+
+    .bottom-links a {
+        margin: 5px;
+    }
+
+    .copy {
+        margin: 10px 0;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+    nav .nav-links{
+        display: none;
+    }
+
+    .hamMenu{
+        display:block !important;
+    }
+    
 }
 
 @media screen and (max-width: 780px) {
@@ -172,36 +208,40 @@ main{
         justify-content: start;
         margin-right: 5%;
     }
-    .stuff .me{
-        margin-left: 100% !important;
-        /* margin-left: 0;
-        background-color: blue; */
-    }
-}
-
-@media screen and (max-width: 1122px) {
-    .userPic {
-        width: 60%;
-        height: 60%;
-    }
-}
-
-@media screen and (max-width: 330px) {
-    /* body {
-        margin: 0;
-        padding: 0;
-    }
-
-    .profileBody {
+    .basicInfo{
+        margin-right: 5%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-    } */
+        /* background-color: blue; */
+    }
+    .stuff{
+        margin: auto;
 
-    /* .basicInfo  {
+    }
+    .box{
+        margin-top: 5%;
+    }
+    .about{
+        /* background-color: blue; */
+        font-size: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30%;
+        padding-right: 30%;
         
-    } */
+    }
 
+}
+
+
+
+@media screen and (max-width: 330px) {
+    .socials{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 
 }
 
