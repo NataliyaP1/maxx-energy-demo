@@ -7,7 +7,8 @@
     <title>Data</title>
     <link rel="stylesheet" href="css/data.css">
     <link rel="stylesheet" href="css/main.css">
-    <script src="./scripts/about.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="./scripts/data.js"></script>
     <script src="./scripts/main.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -41,43 +42,538 @@
                     <span></span>
                     <span></span>
                     <span></span>
-                  </div>
+                </div>
             </div>
             <div class="offScreenMenu">
                 <ul class="menu-list">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                  <li><a href="faq.html">FAQ</a></li>
-                  <li><a href="login.html">Login/Register</a></li>
-                  <li><a href="profile.html">Profile</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="login.html">Login/Register</a></li>
+                    <li><a href="profile.html">Profile</a></li>
 
                 </ul>
-              </div>
+            </div>
         </nav>
-        <div class="color-bar"></div>
-        <body>
+    </header>
+    <div class="color-bar"></div>
 
-
-
-            <footer>
-
-                <div class="socials">
-                
-                <a href="https://www.tiktok.com" target="_blank"><img src="./images/icons8-tiktok-64.png" alt=""></a>
-                <a href="https://www.facebook.com" target="_blank"><img src="./images/icons8-facebook-64.png" alt=""></a>
-                <a href="https://www.instagram.com" target="_blank"><img src="./images/icons8-instagram-64.png" alt=""></a>
-                <a href="https://www.x.com" target="_blank"><img src="./images/icons8-twitterx-64.png" alt=""></a>
+    <body>
+        <div class="data-container">
+            <!-- <div class="topic">.</div> -->
+            <div class="content">
+                <input type="radio" name="slider" checked id="home">
+                <input type="radio" name="slider" id="blog">
+                <input type="radio" name="slider" id="help">
+                <input type="radio" name="slider" id="code">
+                <input type="radio" name="slider" id="about">
+                <div class="list">
+                    <label for="home" class="home">
+                        <i class="fas fa-home"></i>
+                        <span class="title">Dashboard</span>
+                    </label>
+                    <label for="blog" class="blog">
+                        <span class="icon"><i class="fas fa-blog"></i></span>
+                        <span class="title">Performance</span>
+                    </label>
+                    <label for="help" class="help">
+                        <span class="icon"><i class="far fa-envelope"></i></span>
+                        <span class="title">Projects</span>
+                    </label>
+                    <label for="code" class="code">
+                        <span class="icon"><i class="fas fa-code"></i></span>
+                        <span class="title">Code</span>
+                    </label>
+                    <label for="about" class="about">
+                        <span class="icon"><i class="far fa-user"></i></span>
+                        <span class="title">Employee Directory</span>
+                    </label>
+                    <label for="about" class="about">
+                        <span class="icon"><i class="far fa-user"></i></span>
+                        <span class="title"></span>
+                    </label><label for="about" class="about">
+                        <span class="icon"><i class="far fa-user"></i></span>
+                        <span class="title"></span>
+                    </label><label for="about" class="about">
+                        <span class="icon"><i class="far fa-user"></i></span>
+                        <span class="title"></span>
+                    </label><label for="about" class="about">
+                        <span class="icon"><i class="far fa-user"></i></span>
+                        <span class="title"></span>
+                    </label><label for="about" class="about">
+                        <span class="icon"><i class="far fa-user"></i></span>
+                        <span class="title"></span>
+                    </label><label for="about" class="about">
+                        <span class="icon"><i class="far fa-user"></i></span>
+                        <span class="title"></span>
+                    </label>
+                    <div class="slider"></div>
                 </div>
-                
-                <div class="bottom-links">
+                <div class="text-content">
+                    <div class="home text">
+                        <div class="title1">Welcome Player 1,</div>
+                        <section class="statistics mt-4">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="box d-flex  align-items-center mb-4 mb-lg-0 p-3">
+                                        <img src="/images/icons8-group-50.png" alt="">
+                                        <div class="ms-3">
+                                            <div class="d-flex align-items-center">
+                                                <h3 class="mb-0">1,245</h3> <span class="d-block ms-2">Ipsum</span>
+                                            </div>
+                                            <p class="fs-normal mb-0">Lorem ipsum dolor sit amet</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="box d-flex  align-items-center mb-4 mb-lg-0 p-3">
+                                        <img src="/images/icons8-location-50.png">
+                                        <div class="ms-3">
+                                            <div class="d-flex align-items-center">
+                                                <h3 class="mb-0">34</h3> <span class="d-block ms-2">Ipsum</span>
+                                            </div>
+                                            <p class="fs-normal mb-0">Lorem ipsum dolor sit amet</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="box d-flex align-items-center p-3">
+                                        <img src="/images/icons8-energy-50.png">
+                                        <div class="ms-3">
+                                            <div class="d-flex align-items-center">
+                                                <h3 class="mb-0">5,245</h3> <span class="d-block ms-2">Ipsum</span>
+                                            </div>
+                                            <p class="fs-normal mb-0">Lorem ipsum dolor sit amet</p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </section>
+
+                        <div class="cards">
+                            <div id="card" class="card text-bg mb-3">
+                                <div class="card-header">Cost Predicted</div>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div id="card" class="card text-bg mb-3">
+                                <div class="card-header">Change in Cost</div>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div id="card" class="card text-bg mb-3">
+                                <div class="card-header">Usage Estimate</div>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div id="card" class="card text-bg mb-3">
+                                <div class="card-header">Active Appliances</div>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div id="card" class="card text-bg mb-3">
+                                <div class="card-header">Energy Intensity</div>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div id="card" class="card text-bg mb-3">
+                                <div class="card-header">Carbon Footprint</div>
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog text">
+                        <div class="title1">Performance</div>
+                        <div id="chart_div" style="width: 5px; height: 500px;"></div>
+                        <p>
+                        </p>
+                    </div>
+                    <div class="help text">
+                        <div class="title1">Projects</div>
+
+
+                        
+                        
+
+
+
+                    </div>
+                    <div class="code text">
+                        <div class="title1">Code</div>
+                        <p></p>
+                    </div>
+                    <div class="about text">
+                        <div class="title1">Employee Directory</div>
+                        <main class="table" id="customers_table">
+                            <section class="table__header">
+                                <div class="input-group">
+                                    <input type="search" placeholder="Search Data...">
+                                    <img src="images/search.png" alt="">
+                                </div>
+                            </section>
+                            <section class="table__body">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th> Name </th>
+                                            <th> Email </th>
+                                            <th> Work Phone</th>
+                                            <th> Title </th>
+                                            <th> Department</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+
+                                            <td> <img src="images/pfp.jfif" alt="">Zinzu Chan
+                                                Lee</td>
+                                            <td><a href="#">demo.account456@example.net</a></td>
+                                            <td> (555) 567-2901</td>
+                                            <td>
+                                                <p>Electrical Engineer</p>
+                                            </td>
+                                            <td> Engineering</td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">fake.email789@example.org</a></td>
+                                            <td> (555) 567-4901</td>
+                                            <td>
+                                                <p>Petroleum Engineer</p>
+                                            </td>
+                                            <td> Engineering </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Sonal Gharti
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-5901</td>
+                                            <td>
+                                                <p>Operations Manager</p>
+                                            </td>
+                                            <td> Management Department</td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Alson GC
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td>(555) 567-6901</td>
+                                            <td>
+                                                <p>Production Technician</p>
+                                            </td>
+                                            <td> Management Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Sarita Limbu
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td>(555) 567-7901</td>
+                                            <td>
+                                                <p>Vice President of Operations</p>
+                                            </td>
+                                            <td> Management Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Alex Gonley
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-8901</td>
+                                            <td>
+                                                <p>Project Manager</p>
+                                            </td>
+                                            <td> Management Department</td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-9901</td>
+                                            <td>
+                                                <p>Financial Analyst</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Aayat Ali
+                                                Khan </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td>(555) 567-0901</td>
+                                            <td>
+                                                <p>Accountant</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Alson GC
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-1901</td>
+                                            <td>
+                                                <p>Human Resources Manager</p>
+                                            </td>
+                                            <td> Human Resources Department</td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Alson GC
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-2901</td>
+                                            <td>
+                                                <p>HR Coordinator</p>
+                                            </td>
+                                            <td> Human Resources Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Alson GC
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td>(555) 567-3901</td>
+                                            <td>
+                                                <p>Environmental Engineer</p>
+                                            </td>
+                                            <td>Environmental and Safety Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Alson GC
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-4901</td>
+                                            <td>
+                                                <p>Systems Analyst</p>
+                                            </td>
+                                            <td>IT and Systems Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Alson GC
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td>(555) 567-7901</td>
+                                            <td>
+                                                <p>Network Administrator</p>
+                                            </td>
+                                            <td> IT and Systems Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-9901</td>
+                                            <td>
+                                                <p>Financial Analyst</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-9901</td>
+                                            <td>
+                                                <p>Financial Analyst</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-9901</td>
+                                            <td>
+                                                <p>Financial Analyst</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-9901</td>
+                                            <td>
+                                                <p>Financial Analyst</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-9901</td>
+                                            <td>
+                                                <p>Financial Analyst</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-9901</td>
+                                            <td>
+                                                <p>Financial Analyst</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-9901</td>
+                                            <td>
+                                                <p>Financial Analyst</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-9901</td>
+                                            <td>
+                                                <p>Financial Analyst</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-9901</td>
+                                            <td>
+                                                <p>Financial Analyst</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-9901</td>
+                                            <td>
+                                                <p>Financial Analyst</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-9901</td>
+                                            <td>
+                                                <p>Financial Analyst</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-9901</td>
+                                            <td>
+                                                <p>Financial Analyst</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-9901</td>
+                                            <td>
+                                                <p>Financial Analyst</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-9901</td>
+                                            <td>
+                                                <p>Financial Analyst</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td><img src="images/pfp.jfif" alt=""> Jeet Saru
+                                            </td>
+                                            <td><a href="#">testuser123@example.com</a></td>
+                                            <td> (555) 567-9901</td>
+                                            <td>
+                                                <p>Financial Analyst</p>
+                                            </td>
+                                            <td>Finance and Accounting Department </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </section>
+                        </main>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="socials">
+
+                <a href="https://www.tiktok.com" target="_blank"><img src="./images/icons8-tiktok-64.png" alt=""></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="./images/icons8-facebook-64.png"
+                        alt=""></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="./images/icons8-instagram-64.png"
+                        alt=""></a>
+                <a href="https://www.x.com" target="_blank"><img src="./images/icons8-twitterx-64.png" alt=""></a>
+            </div>
+
+            <div class="bottom-links">
                 <a href="">Careers</a>
                 <a href="">Services</a>
                 <a href="">Terms</a>
                 <a href="">Privacy Policy</a>
-                </div>
-                 <p class="copy"> &copy;2024 Maxx Energy Demo | All Rights Reserved</p>
-                
-                    </footer>
-        </body>
-        </html>
+            </div>
+            <p class="copy"> &copy;2024 Maxx Energy Demo | All Rights Reserved</p>
+
+        </footer>
+    </body>
+
+</html>
